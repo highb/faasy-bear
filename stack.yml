@@ -7,3 +7,7 @@ functions:
     lang: go
     handler: ./helloworld
     image: highb/helloworld:latest
+  goatops:
+    lang: python3
+    handler: ./goatops
+    image: highb/goatops:latest
