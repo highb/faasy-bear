@@ -6,6 +6,8 @@ def handle(req):
         req (str): request body
     """
 
-    goatdata = list(open("goatdata", "r"))
+    dirname = os.path.dirname(__file__)
+    path = os.path.join(dirname, 'goatdata')
+    goatdata = list(open(path, "r"))
 
     return random.choice(goatdata)
