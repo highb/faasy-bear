@@ -1,4 +1,4 @@
-import random from random
+import random
 
 def handle(req):
     """handle a request to the function
